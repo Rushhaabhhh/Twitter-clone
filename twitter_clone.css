@@ -1,0 +1,99 @@
+*{
+    font-family: 'Segoe UI';
+    padding : none;
+    margin : none;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px 20px; 
+  }
+  .left-image {
+    margin-right: 20px; 
+  }
+  .right-image {
+    margin-left: 20px; 
+  }
+  .navbar img {
+    max-height: 50px;
+  }
+  .line {
+    border: none;
+    height: 1px;
+    background: #2a2424;
+    background: linear-gradient(to center, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    opacity: 15%;
+  }
+
+.main-content{
+    width: Fixed (1,280px);
+    height: Fixed (654px);
+    top: 66px;
+}
+
+#tweet-input{
+    resize: none;
+    background-color: aliceblue;
+    border: #2a2424;
+    border-radius:  10px;
+}
+#comment-input{
+    resize: none;
+    background-color: aliceblue;
+    border: #2a2424;
+    border-radius:  10px;
+}
+
+.tweet-area{
+    display: flex;
+    width: Fill (768px);
+    height: Fill (654px);
+    padding: 184px, 32px, 0px, 32px;
+    gap: 16px;
+}
+#tweet-button{
+    display : flex;
+    justify-content: center;
+    padding:  12px;
+    background-color:rgba(97, 97, 243, 0.507);
+    font-weight: bold;
+    border-radius: 25%;
+    
+}
+.tweet-input{
+    display: flex;
+    width: Fixed (521px);
+    height: Hug (248px);
+    padding: 24px;
+    border-radius: 8px;
+    border: 1px;
+    gap: 20px;
+}
+
+.feed-area{
+    width: Fixed (512px);
+    height: Fill (654px);
+    padding: 24px;
+    gap: 16px;
+
+}
+.tweet-cards{
+    width: Hug (1,809px);
+    height: Hug (559px);
+    top: 941px;
+    left: -457px;
+    padding: 16px;
+    border: 1px black;
+    gap: 24px;
+       
+}
+
+.tweet-input{
+    width: Fill (473px);
+    height: Hug (126px);
+    gap: 12px;
+    color:aquamarine;
+}
+
